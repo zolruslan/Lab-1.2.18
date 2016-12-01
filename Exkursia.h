@@ -6,6 +6,9 @@ private:
     char *country;
     int hours;
     float price;
+
+    friend void OutputInfo (Exkursia &section);
+
 public:
     Exkursia ();
     Exkursia (char *c, int h, float p);
