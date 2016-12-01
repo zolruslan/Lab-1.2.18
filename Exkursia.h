@@ -11,6 +11,13 @@ public:
     Exkursia (char *c, int h, float p);
     Exkursia (Exkursia &ex);
 
+    void Setcountry(char *c);
+    char *Getcountry();
+    void Sethours(int h);
+    int Gethours();
+    void Setprice(float p);
+    float Getprice();
+
     ~Exkursia ();
 };
 
